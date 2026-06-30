@@ -1,0 +1,11 @@
+{
+  "name": "enchanted-garden",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node --check src/gameLogic.js && node --check src/main.js",
+    "test": "node --test"
+  }
+}
